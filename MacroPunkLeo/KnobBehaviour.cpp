@@ -3,10 +3,10 @@
 const double potNoiseShield = 0.02;
 
 bool twistRightCondition(double potAcceleration) { return potAcceleration > 0; }
-bool maxRightCondition(double potValue) { return potValue >= 9.5; }
+bool maxRightCondition(double potValue) { return potValue >= 9.8; }
 
 bool twistLeftCondition(double potAcceleration) { return potAcceleration < 0; }
-bool maxLeftCondition(double potValue) { return potValue <= 0.5; }
+bool maxLeftCondition(double potValue) { return potValue <= 0.2; }
 
 double logOfBase(int base, int x) {
     if (x <= 0) return 0;

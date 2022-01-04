@@ -5,7 +5,7 @@ This project was made to help people with RSI (Repetitive Strain Injury), use th
 
 ## Requirements
 - 5x Infared Proximity Sensors
-- 1 A500k pot (A linear potentiometer would work better, but the build and the code uses a logarithmic pot)
+- 1 A500k pot (A linear potentiometer would work better, but the build and the code uses a logarithmic pot) (Please keep in mind that every potentiometer is different and might need fine tuning)
 - Arduino Pro Micro (or any model that supports the Keyboard.h and Mouse.h libraries)
 
 ## Wiring
