@@ -1,0 +1,9 @@
+# filter everything...
+*
+# except these files...
+!.gitignore
+!*.cpp
+!*.h
+!*.ino
+!*.md
+LICENSE
