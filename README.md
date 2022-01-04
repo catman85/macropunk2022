@@ -13,6 +13,12 @@ Raise your fingers to trigger some very common shortcuts for navigation. Use the
 ## Wiring
 ![fritzingdiagram](https://i.imgur.com/6eC7UHg.png)
 
+## Libraries needed
+- Keyboard
+- Mouse
+- Smoothed
+- TimerOne
+
 ## Build with arduino-cli
 
     arduino-cli compile --fqbn arduino:avr:leonardo MacroPunkLeo --clean
@@ -27,7 +33,7 @@ Currently this build works with mac, you can change this behaviour from the file
 
 ## Future Improvements
 
-- Smoother Knob Behaviour
-- Implement Profile Switching
-- Implement Some sort of switching mechanism for Mac/Windows
+- Smoother knob behaviour
+- Implement profile switching
+- Implement switching mechanism for Mac/Windows
 
