@@ -9,9 +9,11 @@ bool holdCondition(int previousValue, int currentValue);
 bool fallCondition(int previousValue, int currentValue);
 
 const unsigned long DEFAULT_INTERVAL = 300;  // In ms
+
 // use this options for OSX:
 const char ctrlKey = KEY_LEFT_GUI;
 const char altKey = KEY_LEFT_GUI;
+
 // use this option for Windows and Linux:
 // const char ctrlKey = KEY_LEFT_CTRL;
 // const char altKey = KEY_LEFT_ALT;

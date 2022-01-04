@@ -46,7 +46,6 @@ class MouseScrollBehaviour : public KnobBehaviour {
    public:
     using KnobBehaviour::KnobBehaviour;
 
-    // TODO test this
     void twistRight(signed char potAcceleration) { Mouse.move(0, 0, -1); };
     void maxRight() { Mouse.move(0, 0, -4); };
 

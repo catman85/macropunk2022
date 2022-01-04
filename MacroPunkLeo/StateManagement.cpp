@@ -28,7 +28,7 @@ double getKnobPreviousValue() { return knobState.previousPotValue.get(); }
 double getKnobAcceleration() { return knobState.potAcceleration.get(); }
 
 void setFingersState() {
-    // We cant use attach Interrputs in this case because we need to recognize
+    // We cant use attach interrputs in this case because we need to recognize
     // the HOLD state.
     fingersState.finger[pinky] = digitalRead(PINKY_PIN);
     fingersState.finger[ring] = digitalRead(RING_PIN);
